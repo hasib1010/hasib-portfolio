@@ -1,0 +1,38 @@
+/* Shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.color-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border: none;font-size: 20px;
+    cursor: pointer;
+    font-style: normal;
+    padding: 15px 35px;
+    font-weight: 700;   border-radius: 5px;
+    height: 64px;width: 150px;background: #FD6E0A;color: white;
+}
+
+/* normal styles */
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    
+}
+nav a:hover{
+   background: rgb(208, 232, 252);
+   color: aliceblue;
+}
