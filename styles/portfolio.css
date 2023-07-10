@@ -57,6 +57,10 @@ nav a {
 
 .header {
     background: #FFF8F3;
+    background-image: url('../images/developer.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .banner {
@@ -64,8 +68,8 @@ nav a {
     justify-content: space-between;
     align-items: center;
     margin: 20px 20px 0px 226px;
-    background-image: url("../images/header_bg.png");
-    background-position: bottom right;
+    background-image: url("../images/header_bg.png") ;
+    background-position: bottom right ;
     background-repeat: no-repeat;
     background-size: 636px 418px;
 }
