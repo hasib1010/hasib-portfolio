@@ -175,18 +175,18 @@ main {
     margin-top: 30px;
 }
 
-.skill-title {
+/* .skill-title {
     color: #181818;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
 
-}
+} */
 
 .skill {
     border: 1px solid lightgray;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 377px;
+    /* width: 377px; */
     height: 28 5px;
     padding: 30px;
     text-align: left;
@@ -203,4 +203,50 @@ main {
     font-weight: 700;
 }
 
-.skill-description {}
+.summary {
+    padding-top: 130px;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* resume part start */
+.resume-details {
+    display: flex;
+}
+
+.summary {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.resume-institute {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.institute {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.informate {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.edu-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+hr{
+    margin: 30px;
+}
