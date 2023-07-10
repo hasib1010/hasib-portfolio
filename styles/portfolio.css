@@ -16,7 +16,7 @@ body {
     font-weight: 700;
     border-radius: 5px;
     height: 64px;
-    width: 150px;
+    width: 240px;
     background: #FD6E0A;
     color: white;
 }
@@ -247,6 +247,55 @@ main {
     font-weight: 400;
     line-height: 28px;
 }
-hr{
+
+hr {
     margin: 30px;
+}
+
+.doenload-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    gap: 120px;
+}
+
+.input input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    background: #FFF;
+    width: 361px;
+    height: px;
+    border: none;
+}
+
+.footer {
+    background: #FFF8F3;
+    padding: 130px 230px 130px 230px;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-title2 {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.title-details {
+    display: flex;
+    width: 562px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 30px;
 }
